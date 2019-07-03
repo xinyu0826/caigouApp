@@ -1,0 +1,1665 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Microsoft YaHei';
+    font-size: 0.16rem;
+}
+html body {
+    width: 100%;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input:-moz-placeholder {
+    color: #999999;
+}
+input::-moz-placeholder {
+    color: #999999;
+}
+input:-ms-input-placeholder {
+    color: #999999;
+}
+input::placeholder {
+    color: #999999;
+}
+
+
+/* 登录页 开始 */
+.boxLogin {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxLogin .imgBj {
+    width: 100%;
+    height: 4.2rem;
+}
+
+.boxLogin .imgBj img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.boxLogin .imgTu {
+    width: 100%;
+    position: absolute;
+    top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.boxLogin .imgTu img {
+    width: 3rem;
+}
+
+.boxLogin .txt {
+    width: 90%;
+    height: 3rem;
+    background-color: white;
+    position: absolute;
+    top: 2.7rem;
+    border-radius: 0.1rem;
+}
+
+.boxLogin .txt form {
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+
+.boxLogin .txt form .loginInput {
+    width: 100%;
+    height: 0.8rem;
+    margin-top: 0.1rem;
+}
+
+.boxLogin .txt form .loginInput span img {
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-right: 0.15rem;
+}
+
+.boxLogin .txt form .loginInput input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 80%;
+    height: 0.3rem;
+    padding-bottom: 0.1rem;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+}
+
+.boxLogin .txt form .loginInput input:-ms-input-placeholder {
+    color: #ccc;
+}
+.boxLogin .txt form .loginInput input::-webkit-input-placeholder {
+    color: #ccc;
+}
+.boxLogin .txt form .loginInput input:-moz-placeholder {
+    color: #ccc;
+}
+.boxLogin .txt form .loginInput input::-moz-placeholder {
+    color: #ccc;
+}
+
+.boxLogin .txt form .loginMima {
+    float: right;
+    margin-top: 0.4rem;
+    margin-right: 0.02rem;
+}
+
+.boxLogin .txt form .loginMima a {
+    color: rgb(168, 167, 167);
+}
+
+.boxLogin .txt form .loginSubmit {
+    width: 100%;
+
+}
+.boxLogin .txt form .loginSubmit input {
+    width: 100%;
+    height: 0.5rem;
+    background-color: #3283FF;
+    border-radius: 0.2rem;
+    outline: none;
+    color: white;
+    margin-top: 0.25rem;
+    border: none;
+}
+
+.boxLogin .txt .loginXieyi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.2rem;
+}
+
+.boxLogin .txt .loginXieyi span {
+    color: rgb(168, 167, 167);
+}
+
+/* 登录页 结束 */
+
+
+/* 首页 开始 */
+
+.indexTop {
+    width: 100%;
+    height: 1.7rem;
+    background-color: #3283FF;
+    position: relative;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+.indexTop .indexImg{
+    width: 1.8rem;
+    height: 1.8rem;
+    position: absolute;
+    right: -0.1rem;
+    bottom: -0.2rem;  
+}
+
+.indexTop .indexImg img {
+    width: 1.8rem;
+    height: 1.8rem;
+    z-index: 99;
+    opacity: 0.5;
+}
+
+.indexTop .indexTopBav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+.indexTop .indexTopBav .indexLeft {
+    width: 20%;
+    cursor: pointer;
+}
+
+.indexTop .indexTopBav .indexLeft  a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.indexTop .indexTopBav .indexLeft  a img {
+    width: 0.4rem;
+}
+
+.indexTop .indexTopBav .indexContentSou {
+    height: 0.5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.indexTop .indexTopBav .indexContentSou span {
+    position: absolute;
+    left: 0.2rem;
+    top: 0.14rem;
+    width: 0.2rem;
+    height: 0.2rem;
+}
+
+.indexTop .indexTopBav .indexContentSou span img{
+    width: 0.2rem;
+    height: 0.2rem;
+}
+
+.indexTop .indexTopBav .indexContentSou input {
+    outline: none;
+    padding: 0.05rem 0.4rem;
+    box-sizing: border-box;
+    border-radius: 0.2rem;
+    border: none;
+    height: 0.3rem;
+}
+
+.indexTop .indexTopBav .indexContentSou input:-ms-input-placeholder {
+    color: #ccc;
+}
+.indexTop .indexTopBav .indexContentSou input::-webkit-input-placeholder {
+    color: #ccc;
+}
+.indexTop .indexTopBav .indexContentSou input:-moz-placeholder {
+    color: #ccc;
+}
+.indexTop .indexTopBav .indexContentSou input::-moz-placeholder {
+    color: #ccc;
+}
+
+.indexTop .indexTopBav .indexRight {
+    width: 20%;
+    cursor: pointer;
+}
+
+.indexTop .indexTopBav .indexRight a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.indexTop .indexTopBav .indexRight a img {
+    width: 0.4rem;
+}
+
+
+.indexTop .indexTopBottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1rem;
+    /* background-color: pink; */
+    padding: 0.15rem;
+}
+
+.indexTop .indexTopBottom .indexTopBottomShang {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.indexTop .indexTopBottom .indexTopBottomShang span {
+    font-size: 0.2rem;
+    color: white;
+}
+
+.indexTop .indexTopBottom .indexTopBottomXia {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.indexTop .indexTopBottom .indexTopBottomXia span {
+    color: white;
+    font-size: 0.13rem;
+}
+
+.indexTop .indexTopBottom .indexTopBottomXia span img {
+    width: 0.33rem;
+    margin-left: -0.1rem;
+}
+
+
+
+/* 中间内容 */
+.indexContent {
+    width: 100%;
+    height: 2rem;
+    border-top: 1px solid rgb(231, 229, 229);
+    border-bottom: 1px solid rgb(231, 229, 229);
+    margin-top: 0.2rem;
+}
+
+.indexContent .listTop {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid rgb(231, 229, 229);
+}
+
+.indexContent .listTop ul {
+    width: 100%;
+    height: 100%;
+}
+
+.indexContent .listTop ul li {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    cursor: pointer;
+    border-right: 1px solid rgb(231, 229, 229);
+}
+.indexContent .listTop ul li:last-child {
+    border-right: none;
+}
+
+.indexContent .listTop ul li:nth-child(2n-1) {
+    border-right: 1px solid rgb(247, 243, 243);
+}
+
+.indexContent .listTop ul li a {
+    width: 100%;
+    height: 100%;
+    color: #666;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.indexContent .listTop ul li a img {
+    width: 0.33rem;
+    position: absolute;
+    top: 0.2rem;
+}
+
+.indexContent .listTop ul li a span {
+    width: 100%;
+    position: absolute;
+    bottom: 0.2rem;
+    font-size: 0.14rem;
+}
+
+.indexContent .listBottom {
+    width: 100%;
+    height: 50%;
+}
+
+.indexContent .listBottom ul {
+    width: 100%;
+    height: 100%;
+}
+
+.indexContent .listBottom ul li {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    cursor: pointer;
+    border-right: 1px solid rgb(231, 229, 229);
+}
+
+.indexContent .listBottom ul li:last-child {
+    border-right: none;
+}
+
+.indexContent .listBottom ul li:nth-child(2n-1) {
+    border-right: 1px solid rgb(247, 243, 243);
+}
+
+.indexContent .listBottom ul li a {
+    width: 100%;
+    height: 100%;
+    color: #666;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.indexContent .listBottom ul li a img {
+    width: 0.33rem;
+    position: absolute;
+    top: 0.2rem;
+}
+
+.indexContent .listBottom ul li a span {
+    width: 100%;
+    position: absolute;
+    bottom: 0.2rem;
+    font-size: 0.14rem;
+}
+
+.indexBottom {
+    width: 100%;
+    height: 0.7rem;
+    padding: 0.1rem 0.15rem;
+    /* background-color: pink; */
+    border-bottom: 1px solid rgb(247, 243, 243);
+}
+
+.indexBottom .notice {
+    width: 100%;
+    height: 100%;
+    padding: 0.1rem 0;
+    box-sizing: border-box;
+}
+
+.indexBottom .notice img {
+    width: 1rem;
+    height: 100%;
+}
+
+.indexBottom .listPage {
+    width: 100%;
+    height: 2rem;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+    margin-top: 0.1rem;
+}
+
+.indexBottom .listPage ul li {
+    width: 100%;
+    height: 0.3rem;
+    color: rgb(145, 144, 144);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.indexBottom .listPage ul li span:nth-child(1) {
+    float: left;
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background-color: #3283FF;
+    margin-right: 0.1rem;
+}
+
+.indexBottom .listPage ul li a {
+    width: 1.55rem;
+    /* 自动换行 */
+    overflow: hidden;
+    white-space: nowrap; /* 设置内容不换行 */
+    /* 设置为省略号 */
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+}
+
+.indexBottom .listPage ul li span:nth-child(3) {
+    position: absolute;
+    right: 0;
+}
+
+
+/* 版权 */
+.copyright {
+    width: 100%;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    color: #999999;
+    margin-top: 2rem;
+}
+
+/* 首页结束 */
+
+
+/* purchase 申请采购页 */
+.release {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 0.5rem;
+    background-color: #3283FF;
+    display: flex;
+    align-items: center;
+    z-index: 999999;
+}
+.release span:first-child {
+    width: 0.4rem;
+    height: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.release span img {
+    width: 0.3rem;
+    height: 0.3rem;
+}
+
+.release span:last-child {
+    width: 100%;
+    color: white;
+    font-size: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -5%;
+}
+
+
+/* 申请采购页 */
+.details {
+    width: 2.6rem;
+    width: 2.6rem;
+    text-align: center;
+    margin: 1.4rem auto;
+    margin-bottom: 0;
+}
+
+.details a {
+    display: inline-block;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.details a:nth-child(2n) {
+    margin-right: 0;
+}
+
+.details a:nth-child(3) {
+    margin-bottom: 0;
+}
+
+.details a:nth-child(4) {
+    margin-bottom: 0;
+}
+
+.details img {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+
+
+/* purchase 申请采购页 end */
+
+
+
+
+/* 常规物资类 */
+
+.conventional {
+    width: 100%;
+    padding: 0 0.15rem;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+.conventional .biaoti {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.conventional .biaoti span:first-child {
+    display: inline-block;
+    width: 0.05rem;
+    height: 0.19rem;
+    background-color: #3A8EFF;
+    margin-right: 0.05rem;
+}
+
+.conventional .biaoti span:last-child {
+    font-size: 0.2rem;
+    color: #3A8EFF;
+}   
+
+
+/* 选项 */
+.conventional .optionOne {
+    width: 100%;
+    height: 100%;
+}
+
+.conventional .optionOne ul {
+    width: 100%;
+    height: 100%;
+}
+
+.conventional .optionOne ul li {
+    width: 100%;
+    height: 0.5rem;
+    position: relative;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.conventional .optionOne ul li:last-child {
+    border-bottom: none;
+}
+
+.conventional .optionOne ul li span {
+    font-size: 0.16rem;
+    line-height: 0.5rem;
+}
+
+.conventional .optionOne ul li select {
+    border: none;
+    color: #999999;
+    outline: none;
+    float: right;
+    width: 1.4rem;
+    height: 0.48rem;
+    font-size: 0.16rem;
+}
+
+.conventional .optionOne ul li p {
+    position: absolute;
+    right: 0.04rem;
+    top: 0.18rem;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: white;
+
+}
+
+.conventional .optionOne ul li img {
+    width: 0.26rem;
+    height: 0.26rem;
+    position: absolute;
+    top: 0.13rem;
+    right: -0.01rem;
+    z-index: 999;
+}
+
+.conventional .optionOne ul li:nth-child(2) input {
+    width: 100%;
+    font-size: 0.16rem;
+    line-height: 0.48rem;
+    border: none;
+    outline: none;
+}
+
+
+.conventional .optionOne ul li:nth-child(3) input {
+    border: none;
+    outline: none;
+    float: right;
+    height: 0.48rem;
+    font-size: 0.16rem;
+    width: 1.36rem;
+}
+
+
+/* 采购备注 */
+.remarks {
+    width: 100%;
+    height: 1rem;
+    background-color: white;
+    font-size: 0.16rem;
+    padding: 0.15rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.remarks input {
+    outline: none;
+    border: none;
+    width: 100%;
+    margin-top: 0.15rem;
+}
+
+
+
+
+/* 物资名称 */
+.wuzi {
+    width: 100%;
+    height: 5rem !important;
+    margin-bottom: 0.1rem;
+}
+
+.material {
+    width: 100%;
+    height: 3.3rem;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.material .inp {
+    width: 100%;
+}
+
+.material .inp input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #F0F0F0;
+    height: 0.5rem;
+}
+
+.material .padd {
+    padding-left: 0.15rem;
+    box-sizing: border-box;
+}
+
+.material .input_item {
+
+    float: left;
+    width: 100%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    margin-top: 0.2rem;
+    position: relative;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.material .input_item > span {
+    display: inline-block;
+    width: 0.8rem;
+    font-size: 0.16rem;
+}
+
+.material .input_item .input_right {
+    width: 70%;
+    position: relative;
+}
+
+.material .input_item .input_right input {
+    float: right;
+    height: 0.35rem;
+    width: 59%;
+    outline: none;
+    border: none;
+    border-radius: 0.05rem;
+    padding-left: 0.1rem;
+    font-size: 0.15rem;
+}
+
+.material .input_item .input_right input::placeholder {
+    font-size: 0.15rem;
+    color: #b9b9b9;
+}
+
+.material .input_item .input_right .must {
+    color: #FF0000;
+    position: absolute;
+    right: -0.2rem;
+    top: 0;
+    height: 100%;
+    line-height: 0.35rem;
+}
+
+.material .input_item .input_right .wgcselectBox {
+    float: right;
+    width: 69%;
+    height: 0.35rem;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+    margin-right: -0.19rem;
+}
+
+.material .input_item .input_right .wgcselectShow {
+    padding: 0 0.1rem;
+    line-height: 0.35rem;
+    color: #b9b9b9;
+}
+
+.material .input_item .input_right .wgcselectShowColor {
+    color: #000000 !important;
+}
+
+.material .input_item .input_right .wgcselectUlOver {
+    position: absolute;
+    overflow: hidden;
+    left: -0.02rem;
+    top: 0.35rem;
+    padding: 0.02rem;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 99;
+}
+
+.material .input_item .input_right .wgcselectBox ul {
+    margin: 0;
+    width: 100%;
+    height: 2rem;
+    box-shadow: 0 0.02rem 0.05rem #d8d8d8;
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    border-radius: 0.05rem;
+    overflow: auto;
+    transform: translateY(-0.5rem);
+    opacity: 0;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.material .input_item .input_right .wgcselectBox ul li {
+    padding: 0.1rem;
+    font-size: 0.14rem;
+    color: #000;
+}
+
+.material .input_item .input_right .wgcselectBox ul li:hover {
+    background: #E6FDFF;
+}
+
+.material .input_item .input_right .wgcSelectOverNo {
+    visibility: hidden;
+}
+
+.material .input_item .input_right .wgcselectJianTou {
+    position: absolute;
+    top: 0.07rem;
+    right: 0.05rem;
+    width: 0.28rem;
+    height: 0.2rem;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.material .input_item .input_right .wgcImgRotate {
+    transform: rotate(180deg);
+}
+
+.material .input_item .input_right .pd_select_box {
+    width: 11.7rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.material .input_item .input_right .wgcDisplay {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+
+/* 新增 */
+.xinzeng {
+    width: 100%;
+    height: 0.5rem;
+    background-color: white;
+    margin-top: 0.1rem;
+}
+
+.xinzeng a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xinzeng a img {
+    width: 0.2rem;
+    height: 0.2rem;
+}
+
+.xinzeng a span {
+    color: #3A8EFF;
+}
+
+/* 空白 */
+.kongbai {
+    width: 100%;
+    height: 0.3rem;
+    background-color: white;
+}
+
+/* 提交按钮 */
+.conventionalBtn {
+    width: 100%;
+    height: 0.5rem;
+}
+
+.conventionalBtn button {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    background-color: #4777ED;
+}
+
+
+
+/* 常规物资类 end */
+
+
+
+/* 正在进行 */
+
+
+/* 顶部 */
+.underwayTop {
+    width: 100%;
+    height: 0.5rem;
+    background-color: #3A8EFF;
+    position: fixed;
+    top: 0;
+    z-index: 999999999999999;
+    display: flex;
+    align-items: center;
+}
+
+.underwayTop span:first-child {
+    width: 0.3rem;
+    height: 0.3rem;
+}
+
+.underwayTop span:first-child img {
+    width: 0.3rem;
+    height: 0.3rem;
+} 
+
+.underwayTop span:last-child {
+    width: 100%;
+    font-size: 0.2rem;
+    color: white;
+    text-align: center;
+    margin-left: -0.3rem;
+}
+
+/* 导航条 */
+
+.underwayNav {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 0.6rem;
+    background-color: #3A8EFF;
+    position: relative;
+}
+
+/* 背景图 */
+.underwayNav .bgcolor {
+    width: 100%;
+    height: 0.6rem;
+}
+
+.underwayNav .bgcolor img {
+    width: 100%;
+    height: 0.6rem;
+    background-size: 100% 100%;
+}
+
+.underwayNav ul {
+    width: 100%;
+    height: 0.6rem;
+    position: absolute;
+    top: 0;
+}
+
+.underwayNav ul li {
+    float: left;
+    width: 33.3333%;
+    height: 0.6rem;
+    text-align: center;  
+    position: relative;
+}
+
+.underwayNav ul li span {
+    color: #C7DDFF;
+    font-size: 0.2rem;
+    line-height: 0.6rem;
+}
+
+.underwayNav ul li img {
+    width: 0.8rem;
+    position: absolute;
+    bottom: 0.03rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+
+/* 内容部分 */
+.underwayContent {
+    width: 86%;
+    height: 1.8rem;
+    box-shadow:-0.05rem 0.05rem 0.1rem #D1EDFF,0.05rem 0.05rem 0.1rem #D1EDFF,0.05rem -0.01rem 0.1rem #D1EDFF;
+    margin: 0.3rem auto;
+    margin-top: 0.2rem;
+    position: relative;
+}
+
+/* 项目名称 */
+.underwayContent .underwayContentTop {
+    width: 100%;
+    height: 0.5rem;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+    /* background-color: pink; */
+}
+
+.underwayContent .underwayContentTop ul {
+    width: 100%;
+    height: 0.5rem;
+}
+
+.underwayContent .underwayContentTop ul li {
+    float: left;
+    line-height: 0.5rem;
+}
+
+
+/* 加急或待签 */
+.underwayContent .underwayContentImg {
+    width: 100%;
+    height: 0.3rem;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+    /* background-color: pink; */
+}
+
+.underwayContent .underwayContentImg img {
+    height: 0.3rem;
+}
+
+/* 内容 */
+.underwayContent .underwayContentTxt {
+    width: 100%;
+    height: 0.8rem;
+    /* background-color: pink; */
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+}
+
+.underwayContent .underwayContentTxt ul {
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.underwayContent .underwayContentTxt ul li {
+    float: left;
+    width: 33.333%;
+}
+
+.underwayContent .underwayContentTxt ul li span {
+    color: #FF2C4C;
+}
+
+.underwayContent .underwayContentTxt ul li span:last-child {
+    color: #FF8996;
+}
+
+.underwayContent .underwayContentTxt ul li p {
+    color: #999999;
+    margin-top: 0.05rem;
+}
+
+/* 详情箭头 */
+.underwayContent .underwayContentRight {
+    position: absolute;
+    right: 0;
+    bottom: -0.25rem;
+}
+
+.underwayContent .underwayContentRight img {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+/* 正在进行页面 end */
+
+
+
+/* ledger -- 待录入 */
+.ledgerNav {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 0.6rem;
+    background-color: #3A8EFF;
+    position: relative;
+}
+
+.ledgerNav .bgcolor {
+    width: 100%;
+    height: 0.6rem;
+}
+
+.ledgerNav .bgcolor img {
+    width: 100%;
+    height: 0.6rem;
+    background-size: 100% 100%;
+}
+
+.ledgerNav ul {
+    width: 100%;
+    height: 0.6rem;
+    position: absolute;
+    top: 0;
+}
+
+.ledgerNav ul li {
+    float: left;
+    width: 50%;
+    height: 0.6rem;
+    text-align: center;  
+    position: relative;
+}
+
+.ledgerNav ul li span {
+    color: #C7DDFF;
+    font-size: 0.2rem;
+    line-height: 0.6rem;
+}
+
+.ledgerNav ul li img {
+    width: 0.8rem;
+    position: absolute;
+    bottom: 0.03rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+/* ledger -- 待录入 end */
+
+
+
+
+/* inputLedger -- 录入台账 */
+
+
+/* 物资名称 */
+.inputLedgerName {
+    width: 90%;
+    height: 2.5rem;
+    margin-top: 0.7rem;
+    border-radius: 0.05rem;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    border: 1px solid #F2F2F2;
+}
+
+.inputLedgerName .inputLedgerNameTop {
+    width: 100%;
+    height: 0.3rem;
+    background-color: #3A8EFF;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    border-radius: 0.05rem 0.05rem 0 0;
+    line-height: 0.3rem;
+}
+
+.inputLedgerName .inputLedgerNameTop span {
+    color: white;
+}
+
+.inputLedgerName .inputLedgerNameContent {
+    width: 100%;
+    height: 100%;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+    margin-top: 0.1rem;
+}
+
+.inputLedgerName .inputLedgerNameContent dl {
+    width: 50%;
+    float: left;
+}
+
+.inputLedgerName .inputLedgerNameContent dl:last-child {
+    margin-top: 0.5rem;
+}
+
+.inputLedgerName .inputLedgerNameContent dl dd {
+    margin-top: 0.1rem;
+    font-size: 0.12rem;
+}
+
+
+/* 录入台账  */
+
+.inputLedgerXia {
+    width: 90%;
+    height: 13.19rem;
+    margin: 0.2rem auto;
+    /* background-color: pink; */
+    border-radius: 0.05rem;
+    border: 1px solid #F2F2F2;
+}
+
+.inputLedgerXia .inputLedgerXiaTop {
+    width: 100%;
+    height: 0.3rem;
+    background-color: #3AC8AE;
+    border-radius: 0.05rem 0.05rem 0 0;
+    line-height: 0.3rem;
+    text-align: center;
+}
+
+.inputLedgerXia .inputLedgerXiaTop span {
+    color: #F2F2F2;
+}
+
+
+.inputLedgerBtn {
+    width: 100%;
+    height: 1rem;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputLedgerBtn button {
+    width: 40%;
+    height: 60%;
+    border-radius: 0.05rem;
+    border: none;
+    color: white;
+    margin-left: 0.2rem;
+    background-color: #DEDEDE;
+    outline: none;
+}
+
+.inputLedgerBtn button:first-child {
+    margin-left: 0;
+    background-color: #3A8EFF;
+}
+
+/* inputLedger -- 录入台账 end */
+
+
+
+
+
+
+/* material 正在进行 -- 紧急物资类 */
+
+/* 步骤条 */
+.materialSteps {
+    width: 100%;
+    height: 0.5rem;
+    margin-top: 0.5rem;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.materialSteps .step {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 0.35rem;
+}
+
+.materialSteps .step-head {
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    line-height: 0.19rem;
+    text-align: center;
+    vertical-align: top;
+    color: #bfcbd9;
+    font-size: 0.14rem;
+    border: 2px solid #bfcbd9;
+    z-index: 10000;
+}
+
+.materialSteps .step-main {
+    font-size: 0.12rem;
+    color: #3A8EFF;
+}
+
+.materialSteps .step-line {
+    position: absolute;
+    top: 0.09rem;
+    height: 0.05rem;
+    left: 0.22rem;
+    right: -0.05rem;
+    display: inline-block;
+    background-color: #bfcbd9;
+    z-index: 10000;
+}
+
+.materialSteps .step-circle {
+    margin: 0.04rem;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background-color: #bfcbd9;
+}
+
+.materialSteps .is-sucess > .step-head {
+    color: #3A8EFF;
+    border-color: #3A8EFF;
+}
+
+.materialSteps .is-sucess > .step-head .step-circle {
+    background-color: #3A8EFF;
+}
+
+.materialSteps .is-sucess > .step-head > .step-line {
+    background-color: #3A8EFF;
+}
+
+
+.materialSteps .last-sucess > .step-head {
+    color: #3A8EFF;
+    border-color: #3A8EFF;
+}
+
+.materialSteps .last-sucess > .step-head .step-circle {
+    background-color: #3A8EFF;
+}
+/* 步骤条 end */
+
+
+
+/* 紧急物资类 */
+.lei {
+    width: 100%;
+    height: 3rem;
+    background-color:white;
+}
+.lei .biaoti {
+    width: 100%;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    padding-left: 0.1rem;
+}
+
+.lei .biaoti span:first-child {
+    display: inline-block;
+    width: 0.05rem;
+    height: 0.15rem;
+    background-color: #3A8EFF;
+}
+
+.lei .biaoti span:last-child {
+    margin-left: 0.02rem;
+    color: #3A8EFF;
+    font-size: 0.2rem;
+}
+
+
+.lei .leiList {
+    width: 100%;
+    height: 100%;
+    padding: 0 0.1rem;
+}
+
+.lei .leiList ul {
+    width: 100%;
+    height: 100%;
+}
+
+.lei .leiList ul li {
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+/* 采购备注 */
+.beizhu {
+    width: 100%;
+    height: 1rem;
+    background-color: white;
+    margin-top: 0.1rem;
+}
+
+.beizhu div {
+    width: 100%;
+    padding: 0 0.1rem;
+}
+
+.beizhu div:first-child {
+    height: 0.3rem;
+    line-height: 0.3rem;
+}
+
+.beizhu div:last-child {
+    height: 0.7rem;
+}
+
+.beizhu div:last-child input {
+    width: 100%;
+    height: 80%;
+    outline: none;
+    border: none;
+}
+
+
+
+/* 物资名称 */
+.mingc {
+    width: 100%;
+    height: 3.3rem;
+    background-color: white;
+    margin-top: 0.1rem;
+}
+
+.mingc ul {
+    width: 100%;
+    height: 100%;
+    padding: 0.1rem 0.1rem;
+    box-sizing: border-box;
+}
+
+.mingc ul li {
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+/* 主要技术要求 */
+.jishu {
+    width: 100%;
+    height: 1rem;
+    background-color: white;
+    margin-top: 0.1rem;
+}
+
+.jishu div {
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+}
+
+.jishu div:first-child {
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.18rem;
+}
+
+.jishu div:last-child {
+    width: 100%;
+    height: 0.5rem;
+}
+
+.jishu div:last-child input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+/* 图片 */
+.imgs .fil {
+    width: 0.5rem !important;
+    height: 0.5rem;
+    background: url('../images/fangda.png') no-repeat #DEDEDE center;
+    background-size: 50% 50%;
+    margin-left: 0.1rem;
+}
+
+.imgs input {
+    width: 0.5rem !important;
+    height: 0.5rem ! important;
+    border: none;
+    opacity: 0;
+}
+
+/* 复选框 */
+.fu {
+    width: 100%;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    margin-top: 0.1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+.fu .dot {
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    border: 0.02rem solid #969696;
+    display: inline-block;
+    margin-right: 0.15rem;
+}
+
+.fu .dot_in {
+    border: 0.02rem solid #539CFA;
+    position: relative;
+}
+
+.fu .dot_in::before {
+    content: '';
+    position: absolute;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    top: 50%;
+    margin-top: -0.05rem;
+    left: 50%;
+    margin-left: -0.05rem;
+    background-color: #539CFA;
+}
+
+/* 提交按钮 */
+.meterialBtn {
+    width: 100%;
+    height: 1rem;
+    background-color: white;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.meterialBtn button{
+    width: 40%;
+    height: 40%;
+    background-color: #3A8EFF;
+    border: none;
+    border-radius: 0.05rem;
+    color: white;
+    margin-right: 0.1rem;
+    outline: none;
+}
+
+.meterialBtn button:last-child {
+    background-color: #DEDEDE;
+    margin-right: 0;
+}
+
+/* material 正在进行 -- 紧急物资类 end */
+
+
+
+
+/* 弹出框 */
+.tan {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #B2B2B2;
+    z-index: 999999999;
+}
+.tan .back {
+    width: 90%;
+    height: 4rem;
+    background-color: white;
+    margin: 1rem auto;
+}
+
+.tan .back .top {
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.tan .back .top span {
+    color: #3A8EFF;
+    font-size: 0.2rem;
+}
+
+.tan .back .top button {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    right: 0;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+.tan .back .top button img {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+.tan .back .content {
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+}
+
+.tan .back .content textarea {
+    width: 100%;
+    height: 100%;
+    color: #999999;
+    border: none;
+}
+
+.tan .back .footer {
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tan .back .footer button {
+    width: 1.6rem;
+    height: 0.6rem;
+    border: none;
+    outline: none;
+    background-color: #3A8EFF;
+    border-radius: 0.05rem;
+    color: white;
+    font-size: 0.2rem;
+}
+
+/* 弹出框 end */

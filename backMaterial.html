@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <script src="js/public.js"></script>
+    <title>正在进行 -- 紧急物资类</title>
+</head>
+<body bgcolor="#F1F1F1">
+
+    <!-- 顶部 -->
+    <div class="underwayTop">
+        <span>
+            <img src="images/fanh.png" alt="" srcset="">
+        </span>
+        <span>正在进行</span>
+    </div>
+
+    <!-- 步骤条 -->
+    <div class="materialSteps">
+        <div class="steps">
+            <div class="step "style="height: 100%; width:23%;">
+                <div class="step-head">
+                    <div class="step-line"></div>
+                    <div class="step-icon">
+                        1
+                    </div>
+                </div>
+                <div class="step-main">
+                    步骤一
+                </div>
+            </div>
+            <div class="step"style="height: 100%; width:23%; margin-left:0;">
+                <div class="step-head">
+                    <div class="step-line"></div>
+                    <div class="step-icon">
+                        2
+                    </div>
+                </div>
+                <div class="step-main">
+                    步骤二
+                </div>
+            </div>
+            <div class="step"style="height: 100%; width:23%; margin-left:0;">
+                <div class="step-head">
+                    <div class="step-line"></div>
+                    <div class="step-icon">
+                        3
+                        <!-- <div class="step-circle">3</div> -->
+                    </div>
+                </div>
+                <div class="step-main">
+                    步骤三
+                </div>
+            </div>
+        
+            <div class="step"style="height: 100%; margin-left:0;">
+                <div class="step-head">
+        
+                    <div class="step-icon">
+                        4
+                    </div>
+                </div>
+                <div class="step-main">
+                    步骤四
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 紧急物资类 -->
+    <div class="lei">
+
+        <div class="biaoti">
+            <span></span>
+            <span>紧急物资类</span>
+        </div>
+
+        <div class="leiList">
+            <ul>
+                <li>项目公司：<span></span></li>
+                <li>项目名称：</li>
+                <li>编&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号：</li>
+                <li>需求部门：</li>
+                <li>费用渠道：</li>
+                <li>预算内/外：</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- 采购备注 -->
+    <div class="beizhu">
+        <div>
+            <span>采购备注:</span>
+        </div>
+        
+        <div>
+            <input type="text" placeholder="备注内容">
+        </div>
+    </div>
+
+    <!-- 物资名称 -->
+    <div class="mingc">
+        <ul>
+            <li>物资名称：<span></span></li>
+            <li>规格型号：<span></span></li>
+            <li>数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量：<span></span></li>
+            <li>计量单位：<span></span></li>
+            <li>小&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;计：<span></span></li>
+            <li>概算单价（元）：<span></span></li>
+            <li>概算总价（元）：<span></span></li>
+            <li>计划到货时间：<span></span></li>
+        </ul>
+    </div>
+
+    <!-- 主要技术要求 -->
+    <div class="jishu">
+        <div>主要技术要求</div>
+        <div>
+            <input type="text" placeholder="主要技术要求备注">
+        </div>
+    </div>
+
+    <!-- 主要商务要求建议 -->
+    <div class="jishu">
+        <div>主要商务要求建议</div>
+        <div>
+            <input type="text" placeholder="主要技术要求备注">
+        </div>
+    </div>
+
+    <!-- 图片 -->
+    <div class="imgs jishu">
+        <div>图片</div>
+        <div class="fil">
+            <input type="file" name="" id="">
+        </div>
+    </div>
+
+    <!-- 复选框 -->
+    <div class="fu" style="padding-left: 10px; box-sizing:border-box;">
+        <span class="dot dot_in"></span>
+        <span style="font-size: 0.12rem;">技术要求简单、标准统一、有确定规格型号的物资</span>
+    </div>
+
+    <!-- 提交按钮 -->
+    <div class="meterialBtn">
+        <button>提交</button>
+        <button>取消</button>
+    </div>
+
+    <!-- 弹出框 -->
+    <div class="tan" style="display: none;">
+        <div class="back">
+            <div class="top">
+                <span>返回备注</span>
+                <button><img src="images/cuowu.png"></button>
+            </div>
+            <div class="content">
+                <textarea name="" id="" cols="30" rows="10">退回内容......</textarea>
+            </div>
+            <div class="footer">
+                <button>提交</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/steps.js"></script>
+    <script>
+        
+        var tan = document.querySelector('.tan')
+        var hei = tan.style.height=document.body.clientHeight+"px";
+        var btn = document.querySelector('.tan .back .top button')
+        var tijioa = document.querySelector('.tan .back .footer button')
+        // 点击叉号
+        btn.onclick = function () {
+            tan.style.display = 'none'
+        }
+        // 点击提交
+        tijioa.onclick = function () {
+            tan.style.display = 'none'
+        }
+
+        $(document).ready(function () {
+            $('.tan').css('display', 'block')
+            window.scrollTo(0,0)
+        })
+    </script>
+    
+</body>
+</html>
